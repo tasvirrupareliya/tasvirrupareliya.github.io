@@ -316,12 +316,12 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 122px;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 460px; }
 
 .sidebar-info {
   position: relative;
@@ -329,6 +329,10 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
+}
+
+img.round-img {
+    border-radius: 25px;
 }
 
 .avatar-box {
@@ -440,7 +444,7 @@ main {
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 25px;
 }
 
 
@@ -878,12 +882,12 @@ main {
 .filter-list { display: none; }
 
 .filter-select-box {
-  position: relative;
-  margin-bottom: 25px;
+  /* position: relative;
+  margin-bottom: 25px; */
 }
 
 .filter-select {
-  background: var(--eerie-black-2);
+  /* background: var(--eerie-black-2);
   color: var(--light-gray);
   display: flex;
   justify-content: space-between;
@@ -893,7 +897,7 @@ main {
   border: 1px solid var(--jet);
   border-radius: 14px;
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-300); */
 }
 
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
@@ -914,9 +918,9 @@ main {
 }
 
 .filter-select.active + .select-list {
-  opacity: 1;
+  /* opacity: 1;
   visibility: visible;
-  pointer-events: all;
+  pointer-events: all; */
 }
 
 .select-item button {
